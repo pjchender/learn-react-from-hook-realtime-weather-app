@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="132px" viewBox="0 0 139 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>day-fog</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="day-fog" transform="translate(0.000000, 2.000000)">
+            <ellipse id="Oval" fill="#EFCC00" fill-rule="nonzero" cx="69.5" cy="67.2168866" rx="42.5" ry="42"></ellipse>
+            <path d="M70,0.216886562 L70,15.2168866" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M137,67.2168866 L122,67.2168866" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M17,67.2168866 L2,67.2168866" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M118,19.2168866 L107,30.2168866" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M33,30.2168866 L22,19.2168866" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M89.8983516,102.442871 C73.5541833,101.381841 58.7689091,92.3276491 50.3379121,78.2168866 L29,78.2168866 C32.5427073,91.1133312 41.9555924,101.560708 54.3748656,106.380491 C66.7941387,111.200275 80.751299,109.822557 92,102.666495 C91.282967,102.591954 90.6153846,102.492565 89.8983516,102.442871 Z" id="Path" fill="#E0E0E0" fill-rule="nonzero"></path>
+            <path d="M54,78.2168866 L25,78.2168866" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M9,90.2168866 L38,90.2168866" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M2,103.216887 L124,103.216887" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M76,115.216887 L129,115.216887" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M2,115.216887 L58,115.216887" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M56,128.216887 L104,128.216887" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M6,128.216887 L40,128.216887" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M51,90.2168866 L67,90.2168866" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
