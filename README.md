@@ -1,8 +1,10 @@
-# 認識專案資料夾結構與檔案下載
+# 用 JavaScript 寫 CSS!? CSS in JS 的使用
 
-## 本單元會使用到的網址
+## 本單元中使用到的網址
 
-- Github 連結：[https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/tree/init-project](https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/tree/init-project)
-- 天氣圖示下載：[https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/master/public/weather-icons.zip](https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/master/public/weather-icons.zip)
-- 台灣好天氣 App 圖示：[https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/master/public/app-icons.zip](https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/master/public/app-icons.zip)
-- 日出日落資料下載：[https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/master/src/utils/sunrise-sunset.json](https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/master/src/utils/sunrise-sunset.json)
+- install-emotion 分支：[https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/tree/install-emotion](https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/tree/install-emotion)
+
+## 其他參考連結
+- [Emotion: Styled Components](https://emotion.sh/docs/styled)
+- [Normalize.css](https://necolas.github.io/normalize.css/)
+- [JavaScript Template Literals and styled-components(https://celsiusnotes.com/javascript-template-literals/)](https://celsiusnotes.com/javascript-template-literals/)：若想進一步了解在 Styled Components 中反引號這種的用法，可以參考這篇。
