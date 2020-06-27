@@ -155,88 +155,89 @@ const App = () => {
     rainPossibility: 60,
     isLoading: true,
   });
+};
 
-  useEffect(() => {
-    console.log('execute function in useEffect');
-    fetchCurrentWeather();
-  }, []);
+useEffect(() => {
+  console.log('execute function in useEffect');
+  fetchCurrentWeather();
+}, []);
 
-  const fetchCurrentWeather = () => {
-    setCurrentWeather((prevState) => ({
-      ...prevState,
-      isLoading: true,
-    }));
+const fetchCurrentWeather = () => {
+  setCurrentWeather((prevState) => ({
+    ...prevState,
+    isLoading: true,
+  }));
 
-    fetch(
-      `https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=${AUTHORIZATION_KEY}&locationName=${LOCATION_NAME}`
-    )
-      .then((response) => response.json())
-      .then((data) => {
-        const locationData = data.records.location[0];
+  fetch(
+    `https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=${AUTHORIZATION_KEY}&locationName=${LOCATION_NAME}`
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      const locationData = data.records.location[0];
 
-        const weatherElements = locationData.weatherElement.reduce(
-          (neededElements, item) => {
-            if (['WDSD', 'TEMP'].includes(item.elementName)) {
-              neededElements[item.elementName] = item.elementValue;
-            }
-            return neededElements;
-          },
-          {}
-        );
+      const weatherElements = locationData.weatherElement.reduce(
+        (neededElements, item) => {
+          if (['WDSD', 'TEMP'].includes(item.elementName)) {
+            neededElements[item.elementName] = item.elementValue;
+          }
+          return neededElements;
+        },
+        {}
+      );
 
-        setCurrentWeather({
-          observationTime: locationData.time.obsTime,
-          locationName: locationData.locationName,
-          temperature: weatherElements.TEMP,
-          windSpeed: weatherElements.WDSD,
-          description: '多雲時晴',
-          rainPossibility: 60,
-          isLoading: false,
-        });
+      setCurrentWeather({
+        observationTime: locationData.time.obsTime,
+        locationName: locationData.locationName,
+        temperature: weatherElements.TEMP,
+        windSpeed: weatherElements.WDSD,
+        description: '多雲時晴',
+        rainPossibility: 60,
+        isLoading: false,
       });
-  };
+    });
+};
 
-  const {
-    observationTime,
-    locationName,
-    description,
-    windSpeed,
-    temperature,
-    rainPossibility,
-    isLoading,
-  } = currentWeather;
+const {
+  observationTime,
+  locationName,
+  description,
+  windSpeed,
+  temperature,
+  rainPossibility,
+  isLoading,
+} = currentWeather;
 
-  return (
-    <ThemeProvider theme={theme[currentTheme]}>
-      <Container>
-        {console.log('render, isLoading: ', isLoading)}
-        <WeatherCard>
-          <Location>{locationName}</Location>
-          <Description>{description}</Description>
-          <CurrentWeather>
-            <Temperature>
-              {Math.round(temperature)} <Celsius>°C</Celsius>
-            </Temperature>
-            <DayCloudy />
-          </CurrentWeather>
-          <AirFlow>
-            <AirFlowIcon /> {windSpeed} m/h
-          </AirFlow>
-          <Rain>
-            <RainIcon /> {rainPossibility}%
-          </Rain>
-          <Refresh onClick={fetchCurrentWeather} isLoading={isLoading}>
-            最後觀測時間：
-            {new Intl.DateTimeFormat('zh-TW', {
-              hour: 'numeric',
-              minute: 'numeric',
-            }).format(dayjs(observationTime))}{' '}
-            {isLoading ? <LoadingIcon /> : <RefreshIcon />}
-          </Refresh>
-        </WeatherCard>
-      </Container>
-    </ThemeProvider>
-  );
+return (
+  <ThemeProvider theme={theme[currentTheme]}>
+    <Container>
+      {console.log('render, isLoading: ', isLoading)}
+      <WeatherCard>
+        <Location>{locationName}</Location>
+        <Description>{description}</Description>
+        <CurrentWeather>
+          <Temperature>
+            {Math.round(temperature)} <Celsius>°C</Celsius>
+          </Temperature>
+          <DayCloudy />
+        </CurrentWeather>
+        <AirFlow>
+          <AirFlowIcon /> {windSpeed} m/h
+        </AirFlow>
+        <Rain>
+          <RainIcon /> {rainPossibility}%
+        </Rain>
+        <Refresh onClick={fetchCurrentWeather} isLoading={isLoading}>
+          最後觀測時間：
+          {new Intl.DateTimeFormat('zh-TW', {
+            hour: 'numeric',
+            minute: 'numeric',
+          }).format(dayjs(observationTime))}{' '}
+          {isLoading ? <LoadingIcon /> : <RefreshIcon />}
+        </Refresh>
+      </WeatherCard>
+    </Container>
+  </ThemeProvider>
+);
 };
 
 export default App;
