@@ -3,8 +3,8 @@ import styled from '@emotion/styled';
 import { ThemeProvider } from '@emotion/react';
 import dayjs from 'dayjs';
 
-import { ReactComponent as DayCloudyIcon } from './images/day-cloudy.svg';
 import { ReactComponent as AirFlowIcon } from './images/airFlow.svg';
+import { ReactComponent as DayCloudyIcon } from './images/day-cloudy.svg';
 import { ReactComponent as RainIcon } from './images/rain.svg';
 import { ReactComponent as RefreshIcon } from './images/refresh.svg';
 
@@ -126,6 +126,9 @@ const Refresh = styled.div`
   }
 `;
 
+const AUTHORIZATION_KEY = 'CWB-507B37E0-0383-4D8C-878D-628B54EC3536';
+const LOCATION_NAME = '臺北';
+
 const App = () => {
   const [currentTheme, setCurrentTheme] = useState('light');
 
@@ -138,6 +141,38 @@ const App = () => {
     temperature: 32.1,
     rainPossibility: 60,
   });
+
+  const handleClick = () => {
+    fetch(
+      `https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=${AUTHORIZATION_KEY}&locationName=${LOCATION_NAME}`
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        // STEP 1：定義 `locationData` 把回傳的資料中會用到的部分取出來
+        const locationData = data.records.location[0];
+
+        // STEP 2：將風速（WDSD）和氣溫（TEMP）的資料取出
+        const weatherElements = locationData.weatherElement.reduce(
+          (neededElements, item) => {
+            if (['WDSD', 'TEMP'].includes(item.elementName)) {
+              neededElements[item.elementName] = item.elementValue;
+            }
+            return neededElements;
+          },
+          {}
+        );
+
+        // STEP 3：要使用到 React 組件中的資料
+        setCurrentWeather({
+          observationTime: locationData.time.obsTime,
+          locationName: locationData.locationName,
+          temperature: weatherElements.TEMP,
+          windSpeed: weatherElements.WDSD,
+          description: '多雲時晴',
+          rainPossibility: 60,
+        });
+      });
+  };
 
   return (
     <ThemeProvider theme={theme[currentTheme]}>
@@ -157,7 +192,7 @@ const App = () => {
           <Rain>
             <RainIcon /> {currentWeather.rainPossibility}%
           </Rain>
-          <Refresh>
+          <Refresh onClick={handleClick}>
             最後觀測時間：
             {new Intl.DateTimeFormat('zh-TW', {
               hour: 'numeric',

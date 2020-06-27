@@ -1,24 +1,9 @@
-# 將資料帶入畫面中 - useState 的使用
+# 使用 fetch 拉取即時天氣觀測資料
 
-## 單元中使用到的連結
+## 本單元中使用到的連結
 
-- Intl: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) @ MDN
-
-## 單元中會使用到的程式碼
-
-```jsx
-const App = () => {
-  const [currentTheme, setCurrentTheme] = useState('light');ㄏ
-
-  // 定義會使用到的資料狀態
-  const [currentWeather, setCurrentWeather] = useState({
-    locationName: '臺北市',
-    description: '多雲時晴',
-    windSpeed: 1.1,
-    temperature: 22.9,
-    rainPossibility: 48,3,
-    observationTime: '2020-12-12 22:10:00',
-  });
-  // ...
-}
-```
+- 局屬氣象站資料集說明檔：[https://opendata.cwb.gov.tw/opendatadoc/DIV2/A0003-001.pdf](https://opendata.cwb.gov.tw/opendatadoc/DIV2/A0003-001.pdf)
+- [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) @ MDN
+- [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) @ MDN
+- [Array.prototype.reduce](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) @ MDN
+- [Array.prototype.includes](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) @ MDN
