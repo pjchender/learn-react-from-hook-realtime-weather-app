@@ -139,6 +139,7 @@ const App = () => {
     windSpeed: 3.6,
     temperature: 32.1,
     rainPossibility: 60,
+    isLoading: true,
   });
 
   const handleClick = () => {
@@ -169,6 +170,7 @@ const App = () => {
           windSpeed: weatherElements.WDSD,
           description: '多雲時晴',
           rainPossibility: 60,
+          isLoading: false,
         });
       });
   };
