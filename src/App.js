@@ -169,6 +169,6 @@ const App = () => {
       </Container>
     </ThemeProvider>
   );
-};;
+};
 
 export default App;
