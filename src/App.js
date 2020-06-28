@@ -141,6 +141,10 @@ const App = () => {
     rainPossibility: 60,
     isLoading: true,
   });
+  useEffect(() => {
+    console.log('execute function in useEffect');
+    fetchCurrentWeather();
+  }, []);
 
   const fetchCurrentWeather = () => {
     fetch(
