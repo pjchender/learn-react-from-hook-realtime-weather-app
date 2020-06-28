@@ -163,6 +163,7 @@ const App = () => {
   useEffect(() => {
     console.log('execute function in useEffect');
     fetchCurrentWeather();
+    fetchWeatherForecast();
   }, []);
 
   useEffect(() => {
