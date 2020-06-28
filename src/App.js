@@ -158,6 +158,10 @@ const App = () => {
     comfortability: '',
     isLoading: true,
   });
+  useEffect(() => {
+    console.log('execute function in useEffect');
+    fetchCurrentWeather();
+  }, []);
 
   useEffect(() => {
     console.log('execute function in useEffect');
@@ -240,6 +244,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme[currentTheme]}>
       <Container>
+        {console.log('render')}
         <WeatherCard>
           <Location>{locationName}</Location>
           <Description>
