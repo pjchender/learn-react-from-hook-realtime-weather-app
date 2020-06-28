@@ -5,6 +5,7 @@ import dayjs from 'dayjs';
 
 import { ReactComponent as AirFlowIcon } from './images/airFlow.svg';
 import { ReactComponent as DayCloudyIcon } from './images/day-cloudy.svg';
+import { ReactComponent as LoadingIcon } from './images/loading.svg';
 import { ReactComponent as RainIcon } from './images/rain.svg';
 import { ReactComponent as RefreshIcon } from './images/refresh.svg';
 
@@ -123,6 +124,19 @@ const Refresh = styled.div`
     width: 15px;
     height: 15px;
     cursor: pointer;
+    /* STEP 2：使用 rotate 動畫效果在 svg 圖示上 */
+    animation: rotate infinite 1.5s linear;
+    animation-duration: ${({ isLoading }) => (isLoading ? '1.5s' : '0s')};
+  }
+
+  /* STEP 1：定義旋轉的動畫效果，並取名為 rotate */
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
   }
 `;
 
@@ -130,7 +144,7 @@ const AUTHORIZATION_KEY = 'CWB-507B37E0-0383-4D8C-878D-628B54EC3536';
 const LOCATION_NAME = '臺北';
 
 const App = () => {
-  console.log('invoke function component');
+  console.log('--- invoke function component ---');
   const [currentTheme, setCurrentTheme] = useState('light');
   const [currentWeather, setCurrentWeather] = useState({
     observationTime: '2020-12-12 22:10:00',
@@ -141,12 +155,18 @@ const App = () => {
     rainPossibility: 60,
     isLoading: true,
   });
+
   useEffect(() => {
     console.log('execute function in useEffect');
     fetchCurrentWeather();
   }, []);
 
   const fetchCurrentWeather = () => {
+    setCurrentWeather((prevState) => ({
+      ...prevState,
+      isLoading: true,
+    }));
+
     fetch(
       `https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=${AUTHORIZATION_KEY}&locationName=${LOCATION_NAME}`
     )
@@ -176,37 +196,42 @@ const App = () => {
       });
   };
 
-  useEffect(() => {
-    console.log('execute function in useEffect');
-    fetchCurrentWeather();
-  }, []);
+  const {
+    observationTime,
+    locationName,
+    description,
+    windSpeed,
+    temperature,
+    rainPossibility,
+    isLoading,
+  } = currentWeather;
 
   return (
     <ThemeProvider theme={theme[currentTheme]}>
       <Container>
-        {console.log('render')}
+        {console.log('render, isLoading: ', isLoading)}
         <WeatherCard>
-          <Location>{currentWeather.locationName}</Location>
-          <Description>{currentWeather.description}</Description>
+          <Location>{locationName}</Location>
+          <Description>{description}</Description>
           <CurrentWeather>
             <Temperature>
-              {Math.round(currentWeather.temperature)} <Celsius>°C</Celsius>
+              {Math.round(temperature)} <Celsius>°C</Celsius>
             </Temperature>
             <DayCloudy />
           </CurrentWeather>
           <AirFlow>
-            <AirFlowIcon /> {currentWeather.windSpeed} m/h
+            <AirFlowIcon /> {windSpeed} m/h
           </AirFlow>
           <Rain>
-            <RainIcon /> {currentWeather.rainPossibility}%
+            <RainIcon /> {rainPossibility}%
           </Rain>
-          <Refresh onClick={fetchCurrentWeather}>
+          <Refresh onClick={fetchCurrentWeather} isLoading={isLoading}>
             最後觀測時間：
             {new Intl.DateTimeFormat('zh-TW', {
               hour: 'numeric',
               minute: 'numeric',
-            }).format(dayjs(currentWeather.observationTime))}{' '}
-            <RefreshIcon />
+            }).format(dayjs(observationTime))}{' '}
+            {isLoading ? <LoadingIcon /> : <RefreshIcon />}
           </Refresh>
         </WeatherCard>
       </Container>
