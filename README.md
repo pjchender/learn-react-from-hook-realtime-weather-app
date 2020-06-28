@@ -1,9 +1,7 @@
-# 使用 fetch 拉取即時天氣觀測資料
+# 頁面載入時就去請求資料 - useEffect 的基本使用
 
-## 本單元中使用到的連結
+若對於本單元程式碼不太清楚的話，記得可以透過「時鐘」圖示，檢視各個 commit 中程式碼有變更的部分。
 
-- 局屬氣象站資料集說明檔：[https://opendata.cwb.gov.tw/opendatadoc/DIV2/A0003-001.pdf](https://opendata.cwb.gov.tw/opendatadoc/DIV2/A0003-001.pdf)
-- [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) @ MDN
-- [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) @ MDN
-- [Array.prototype.reduce](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) @ MDN
-- [Array.prototype.includes](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) @ MDN
+## 本單元中的連結
+
+- [談談 JavaScript 中 by reference 和 by value 的重要觀念](https://pjchender.blogspot.com/2016/03/javascriptby-referenceby-value.html)
