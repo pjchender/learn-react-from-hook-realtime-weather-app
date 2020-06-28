@@ -8,6 +8,7 @@ import { ReactComponent as DayCloudyIcon } from './images/day-cloudy.svg';
 import { ReactComponent as LoadingIcon } from './images/loading.svg';
 import { ReactComponent as RainIcon } from './images/rain.svg';
 import { ReactComponent as RefreshIcon } from './images/refresh.svg';
+import { ReactComponent as LoadingIcon } from './images/loading.svg';
 
 const theme = {
   light: {
@@ -158,6 +159,7 @@ const App = () => {
     comfortability: '',
     isLoading: true,
   });
+
   useEffect(() => {
     console.log('execute function in useEffect');
     fetchCurrentWeather();
@@ -244,7 +246,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme[currentTheme]}>
       <Container>
-        {console.log('render')}
+        {console.log('render, isLoading: ', isLoading)}
         <WeatherCard>
           <Location>{locationName}</Location>
           <Description>
