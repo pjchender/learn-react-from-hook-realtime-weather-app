@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 
 import { ReactComponent as AirFlowIcon } from './images/airFlow.svg';
 import { ReactComponent as DayCloudyIcon } from './images/day-cloudy.svg';
@@ -124,12 +124,10 @@ const Refresh = styled.div`
     width: 15px;
     height: 15px;
     cursor: pointer;
-    /* STEP 2：使用 rotate 動畫效果在 svg 圖示上 */
     animation: rotate infinite 1.5s linear;
     animation-duration: ${({ isLoading }) => (isLoading ? '1.5s' : '0s')};
   }
 
-  /* STEP 1：定義旋轉的動畫效果，並取名為 rotate */
   @keyframes rotate {
     from {
       transform: rotate(360deg);
@@ -198,7 +196,6 @@ const fetchWeatherForecast = () => {
 };
 
 const App = () => {
-  console.log('--- invoke function component ---');
   const [currentTheme, setCurrentTheme] = useState('light');
   const [weatherElement, setWeatherElement] = useState({
     observationTime: new Date(),
@@ -212,27 +209,27 @@ const App = () => {
     isLoading: true,
   });
 
-  useEffect(() => {
-    const fetchData = async () => {
-      setWeatherElement((prevState) => ({
-        ...prevState,
-        isLoading: true,
-      }));
+  const fetchData = useCallback(async () => {
+    setWeatherElement((prevState) => ({
+      ...prevState,
+      isLoading: true,
+    }));
 
-      const [currentWeather, weatherForecast] = await Promise.all([
-        fetchCurrentWeather(),
-        fetchWeatherForecast(),
-      ]);
+    const [currentWeather, weatherForecast] = await Promise.all([
+      fetchCurrentWeather(),
+      fetchWeatherForecast(),
+    ]);
 
-      setWeatherElement({
-        ...currentWeather,
-        ...weatherForecast,
-        isLoading: false,
-      });
-    };
-
-    fetchData();
+    setWeatherElement({
+      ...currentWeather,
+      ...weatherForecast,
+      isLoading: false,
+    });
   }, []);
+
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
 
   const {
     observationTime,
@@ -266,13 +263,7 @@ const App = () => {
           <Rain>
             <RainIcon /> {rainPossibility}%
           </Rain>
-          <Refresh
-            onClick={() => {
-              fetchCurrentWeather();
-              fetchWeatherForecast();
-            }}
-            isLoading={isLoading}
-          >
+          <Refresh onClick={fetchData} isLoading={isLoading}>
             最後觀測時間：
             {new Intl.DateTimeFormat('zh-TW', {
               hour: 'numeric',
