@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { ReactComponent as AirFlowIcon } from './images/airFlow.svg';
 import { ReactComponent as LoadingIcon } from './images/loading.svg';
@@ -7,6 +7,7 @@ import { ReactComponent as RefreshIcon } from './images/refresh.svg';
 import { ThemeProvider } from 'emotion-theming';
 import WeatherIcon from './components/WeatherIcon';
 import dayjs from 'dayjs';
+import { getMoment } from './utils/helpers';
 import styled from '@emotion/styled';
 
 const theme = {
@@ -205,6 +206,13 @@ const App = () => {
     isLoading: true,
   });
 
+  // TODO: 等使用者可以修改地區時要修改裡面的參數
+  const moment = useMemo(() => getMoment(LOCATION_NAME_FORECAST), []);
+
+  useEffect(() => {
+    setCurrentTheme(moment === 'day' ? 'light' : 'dark');
+  }, [moment]);
+
   const fetchData = useCallback(async () => {
     setWeatherElement((prevState) => ({
       ...prevState,
@@ -251,7 +259,7 @@ const App = () => {
             <Temperature>
               {Math.round(temperature)} <Celsius>°C</Celsius>
             </Temperature>
-            <WeatherIcon weatherCode={weatherCode} moment="night" />
+            <WeatherIcon weatherCode={weatherCode} moment={moment} />
           </CurrentWeather>
           <AirFlow>
             <AirFlowIcon /> {windSpeed} m/h
