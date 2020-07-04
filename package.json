@@ -30,6 +30,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:sunrise-sunset": "node ./src/utils/filter-sunrise-and-sunset",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
