@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import styled from '@emotion/styled';
 
 import { ReactComponent as DayClear } from './../images/day-clear.svg';
@@ -79,12 +80,13 @@ const weatherCode2Type = (weatherCode) => {
   return weatherType;
 };
 
-const WeatherIcon = () => {
-  return (
-    <IconContainer>
-      <DayCloudy />
-    </IconContainer>
-  );
+const WeatherIcon = ({ weatherCode, moment }) => {
+  const weatherType = useMemo(() => weatherCode2Type(weatherCode), [
+    weatherCode,
+  ]);
+  const weatherIcon = weatherIcons[moment][weatherType];
+
+  return <IconContainer>{weatherIcon}</IconContainer>;
 };
 
 export default WeatherIcon;
