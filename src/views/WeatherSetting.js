@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef } from 'react';
 import styled from '@emotion/styled';
 
 import { availableLocations } from './../utils/helpers';
@@ -95,14 +95,9 @@ const Save = styled.button`
 `;
 
 const WeatherSetting = ({ handleCurrentPageChange }) => {
-  const [locationName, setLocationName] = useState('臺北市');
-
-  const handleChange = (e) => {
-    setLocationName(e.target.value);
-  };
-
+  const inputLocationRef = useRef(null);
   const handleSave = () => {
-    console.log('locationName', locationName);
+    console.log('value', inputLocationRef.current.value);
   };
 
   return (
@@ -113,8 +108,8 @@ const WeatherSetting = ({ handleCurrentPageChange }) => {
       <StyledSelect
         id="location"
         name="location"
-        onChange={handleChange}
-        value={locationName}
+        ref={inputLocationRef}
+        defaultValue="臺南市"
       >
         {availableLocations.map(({ cityName }) => (
           <option value={cityName} key={cityName}>
