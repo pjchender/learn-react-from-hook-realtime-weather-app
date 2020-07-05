@@ -1,3 +1,5 @@
-# 讓使用者可以自行設定地區
+# 透過 localStorage 保存使用者設定的地區
 
-本單元無補充之內容或程式碼
+## 參考連結
+
+- [Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) @ MDN

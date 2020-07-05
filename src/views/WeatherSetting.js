@@ -94,7 +94,11 @@ const Save = styled.button`
   }
 `;
 
-const WeatherSetting = ({ cityName, handleCurrentCityChange, handleCurrentPageChange }) => {
+const WeatherSetting = ({
+  cityName,
+  handleCurrentCityChange,
+  handleCurrentPageChange,
+}) => {
   const [locationName, setLocationName] = useState(cityName);
 
   const handleChange = (e) => {
@@ -105,6 +109,7 @@ const WeatherSetting = ({ cityName, handleCurrentCityChange, handleCurrentPageCh
     console.log(`儲存的地區資訊為：${locationName}`);
     handleCurrentCityChange(locationName);
     handleCurrentPageChange('WeatherCard');
+    localStorage.setItem('cityName', locationName);
   };
 
   return (
