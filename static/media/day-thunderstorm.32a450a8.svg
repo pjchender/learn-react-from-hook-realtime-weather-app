@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="155px" viewBox="0 0 136 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>day - thunderstorm</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="24.3617045%" y1="72.8710337%" x2="63.6421593%" y2="39.9796521%" id="linearGradient-1">
+            <stop stop-color="#F2F2F2" offset="0%"></stop>
+            <stop stop-color="#CFCFCF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.5161778%" y1="64.9090909%" x2="8.66000803%" y2="22.6545455%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="2%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="day---thunderstorm" transform="translate(0.000000, 2.000000)">
+            <circle id="Oval" fill="#EFCC00" fill-rule="nonzero" cx="84.5" cy="49.569191" r="31.5"></circle>
+            <path d="M84,0.0691909979 L84,11.069191" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M84,88.069191 L84,99.069191" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M34,50.069191 L45,50.069191" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M123,50.069191 L134,50.069191" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M49,14.069191 L57,22.069191" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M112,77.069191 L120,85.069191" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M49,85.069191 L57,77.069191" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M112,22.069191 L120,14.069191" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M43.6759917,34.069191 C59.8900952,34.0365338 74.7864611,42.957473 82.3604414,57.2361141 C94.8397967,49.9691362 110.55339,51.270247 121.656555,60.4898956 C132.75972,69.7095441 136.871287,84.8704976 131.938648,98.4039833 C127.006009,111.937469 114.08701,120.941115 99.6311764,120.920048 L43.6759917,121.069191 C19.5544075,121.069191 0,101.593598 0,77.5692359 C0,53.5448741 19.5544075,34.069191 43.6759917,34.069191 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(99.376091, 87.169323) rotate(-74.390000) translate(-99.376091, -87.169323) " cx="99.3760914" cy="87.1693226" rx="34.1705349" ry="34.2478481"></ellipse>
+            <polygon id="Path" fill="#EFCC00" fill-rule="nonzero" points="67.3902041 100.069191 62 130.550412 72.7804082 130.550412 67.3902041 153.069191 93 121.269191 80.8783673 121.269191 91.6587755 100.069191"></polygon>
+            <path d="M57,142.769191 C57,147.905439 52.7467051,152.069191 47.5,152.069191 C42.2532949,152.069191 38,147.905439 38,142.769191 C38,134.619191 45.6612903,127.069191 47.5,127.069191 C49.3387097,127.069191 57,134.569191 57,142.769191 Z" id="Path" fill="#0BAEFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

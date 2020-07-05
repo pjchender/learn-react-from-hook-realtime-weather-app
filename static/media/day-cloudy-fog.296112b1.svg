@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="147px" viewBox="0 0 136 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>day-cloudy-fog</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="24.3617045%" y1="72.8710337%" x2="63.6421593%" y2="39.9796521%" id="linearGradient-1">
+            <stop stop-color="#F2F2F2" offset="0%"></stop>
+            <stop stop-color="#CFCFCF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.5161778%" y1="64.9090909%" x2="8.66000803%" y2="22.6545455%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="2%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="day-cloudy-fog" transform="translate(0.000000, 1.000000)">
+            <circle id="Oval" fill="#EFCC00" fill-rule="nonzero" cx="84.5" cy="51.1578564" r="31.5"></circle>
+            <path d="M84,0.657856446 L84,11.6578564" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M84,89.6578564 L84,100.657856" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M34,50.6578564 L45,50.6578564" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M123,50.6578564 L134,50.6578564" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M49,15.6578564 L57,23.6578564" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M112,77.6578564 L120,85.6578564" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M49,85.6578564 L57,77.6578564" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M112,23.6578564 L120,15.6578564" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M43.6759917,35.6578564 C59.8900952,35.6251993 74.7864611,44.5461385 82.3604414,58.8247795 C94.8397967,51.5578016 110.55339,52.8589125 121.656555,62.078561 C132.75972,71.2982096 136.871287,86.4591631 131.938648,99.9926488 C127.006009,113.526134 114.08701,122.52978 99.6311764,122.508714 L43.6759917,122.657856 C19.5544075,122.657856 0,103.182263 0,79.1579014 C0,55.1335396 19.5544075,35.6578564 43.6759917,35.6578564 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(99.376091, 88.169323) rotate(-74.390000) translate(-99.376091, -88.169323) " cx="99.3760914" cy="88.1693226" rx="34.1705349" ry="34.2478481"></ellipse>
+            <path d="M80,131.657856 L105,131.657856" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M25,131.657856 L67,131.657856" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M68,143.657856 L96,143.657856" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M35,143.657856 L54,143.657856" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

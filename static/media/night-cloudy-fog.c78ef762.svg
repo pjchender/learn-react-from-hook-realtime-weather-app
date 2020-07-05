@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="146px" viewBox="0 0 135 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>night-cloudy-fog</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="24.4644699%" y1="72.8710355%" x2="63.7305027%" y2="39.9796208%" id="linearGradient-1">
+            <stop stop-color="#F2F2F2" offset="0%"></stop>
+            <stop stop-color="#CFCFCF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.5161778%" y1="64.9090909%" x2="8.62380839%" y2="22.6545455%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="2%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="night-cloudy-fog" transform="translate(0.000000, 1.000000)">
+            <path d="M109.998732,46.5018686 C99.5211827,45.6537104 89.9953571,40.089702 84.1041444,31.3769113 C78.2129317,22.6641207 76.5938107,11.7453451 79.7027967,1.69578931 C79.8627025,1.11855258 79.6637666,0.501466747 79.1969238,0.126605884 C78.730081,-0.248254979 78.0850295,-0.308865982 77.5566267,-0.0275214274 C64.831216,7.19280522 58.0098378,21.6353921 60.5123312,36.059573 C63.0148247,50.4837539 74.3016468,61.7796452 88.7142469,64.2841494 C103.126847,66.7886536 117.557838,59.9617944 124.772368,47.2261586 C125.104961,46.6936286 125.070491,46.0100362 124.686017,45.5137227 C124.301544,45.0174093 123.648633,44.8136671 123.050441,45.0033375 C118.834836,46.3297131 114.404949,46.8383302 109.998732,46.5018686 L109.998732,46.5018686 Z" id="Path" fill="#EFCC00" fill-rule="nonzero"></path>
+            <path d="M43.7846986,34.7968923 C59.965981,34.7918382 74.8214334,43.7088109 82.3800995,57.9637511 C94.8680469,50.6894829 110.593908,52.0019061 121.693246,61.2446835 C132.792585,70.4874608 136.879845,85.6740626 131.911005,99.2097343 C126.942165,112.745406 113.985167,121.720956 99.5197508,121.647749 L43.6599558,121.796892 C19.5472281,121.796892 0,102.321279 0,78.2968923 C0,54.2725074 19.5472281,34.7968923 43.6599558,34.7968923 L43.7846986,34.7968923 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(99.782296, 87.183986) rotate(-74.390000) translate(-99.782296, -87.183986) " cx="99.7822963" cy="87.1839858" rx="34.1705349" ry="34.2478481"></ellipse>
+            <path d="M80,130.796892 L105,130.796892" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M25,130.796892 L67,130.796892" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M68,142.796892 L96,142.796892" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M35,142.796892 L54,142.796892" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
