@@ -38,7 +38,8 @@ const Container = styled.div`
 const AUTHORIZATION_KEY = 'CWB-507B37E0-0383-4D8C-878D-628B54EC3536';
 
 const App = () => {
-  const [currentCity, setCurrentCity] = useState('臺北市');
+  const storageCity = localStorage.getItem('cityName') || '臺北市';
+  const [currentCity, setCurrentCity] = useState(storageCity);
   const [currentPage, setCurrentPage] = useState('WeatherCard');
   const [currentTheme, setCurrentTheme] = useState('light');
 
