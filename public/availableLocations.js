@@ -1,8 +1,3 @@
-# 處理不同支 API 需帶入不同地區名稱的問題
-
-## 本單元中會使用到的程式碼片段
-
-```js
 export const availableLocations = [
   {
     cityName: '宜蘭縣',
@@ -110,4 +105,3 @@ export const availableLocations = [
     sunriseCityName: '新北市',
   },
 ];
-```

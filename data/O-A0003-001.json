@@ -1,0 +1,2490 @@
+{
+  "success": "true",
+  "result": {
+    "resource_id": "O-A0003-001",
+    "fields": [
+      {
+        "id": "lat",
+        "type": "Double"
+      },
+      {
+        "id": "lon",
+        "type": "Double"
+      },
+      {
+        "id": "locationName",
+        "type": "String"
+      },
+      {
+        "id": "stationId",
+        "type": "String"
+      },
+      {
+        "id": "obsTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "elementName",
+        "type": "String"
+      },
+      {
+        "id": "elementValue",
+        "type": "String"
+      },
+      {
+        "id": "parameterName",
+        "type": "String"
+      },
+      {
+        "id": "parameterValue",
+        "type": "String"
+      }
+    ]
+  },
+  "records": {
+    "location": [
+      {
+        "lat": "10.371770",
+        "lon": "114.356682",
+        "locationName": "南沙島",
+        "stationId": "469020",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "-99"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "高雄市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "05"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "旗津區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "329"
+          }
+        ]
+      },
+      {
+        "lat": "24.4402180000000020",
+        "lon": "120.681656",
+        "locationName": "國三N151K",
+        "stationId": "CAE070",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.30"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "苗栗縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "11"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "苑裡鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "102"
+          }
+        ]
+      },
+      {
+        "lat": "24.2048999999999990",
+        "lon": "120.65519999999999",
+        "locationName": "國一N174K",
+        "stationId": "CAF010",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.70"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "西屯區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "125"
+          }
+        ]
+      },
+      {
+        "lat": "23.497671",
+        "lon": "120.424783",
+        "locationName": "嘉義",
+        "stationId": "467480",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "嘉義市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "09"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "西區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "219"
+          }
+        ]
+      },
+      {
+        "lat": "24.7263160000000010",
+        "lon": "120.94064299999999",
+        "locationName": "國一S105K",
+        "stationId": "CAD010",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.30"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "新竹縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "10"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "寶山鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "076"
+          }
+        ]
+      },
+      {
+        "lat": "24.4531190000000010",
+        "lon": "120.783221",
+        "locationName": "國一N142K",
+        "stationId": "CAE010",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.60"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "苗栗縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "11"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "銅鑼鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "100"
+          }
+        ]
+      },
+      {
+        "lat": "24.308519",
+        "lon": "120.61447099999999",
+        "locationName": "國三S168K",
+        "stationId": "CAF060",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "清水區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "112"
+          }
+        ]
+      },
+      {
+        "lat": "24.5245059999999990",
+        "lon": "120.820831",
+        "locationName": "國一S132K",
+        "stationId": "CAE040",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "苗栗縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "11"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "公館鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "099"
+          }
+        ]
+      },
+      {
+        "lat": "24.6754320000000010",
+        "lon": "120.84738900000001",
+        "locationName": "國三N119K",
+        "stationId": "CAE060",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "苗栗縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "11"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "竹南鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "079"
+          }
+        ]
+      },
+      {
+        "lat": "25.031331",
+        "lon": "121.528056",
+        "locationName": "大安森林",
+        "stationId": "CAAH60",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "34.30"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺北市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "01"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "大安區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "039"
+          }
+        ]
+      },
+      {
+        "lat": "22.753994",
+        "lon": "121.146517",
+        "locationName": "臺東",
+        "stationId": "467660",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺東縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "22"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "臺東市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "297"
+          }
+        ]
+      },
+      {
+        "lat": "25.039410",
+        "lon": "121.506676",
+        "locationName": "臺北",
+        "stationId": "466920",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "35.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺北市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "01"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "中正區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "036"
+          }
+        ]
+      },
+      {
+        "lat": "24.5223450000000010",
+        "lon": "120.72500599999999",
+        "locationName": "國三S140K",
+        "stationId": "CAE080",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "苗栗縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "11"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "通霄鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "098"
+          }
+        ]
+      },
+      {
+        "lat": "23.741712",
+        "lon": "119.596041",
+        "locationName": "吉貝",
+        "stationId": "A0W080",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "29.60"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "澎湖縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "23"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "白沙鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "198"
+          }
+        ]
+      },
+      {
+        "lat": "25.008503",
+        "lon": "121.039267",
+        "locationName": "新屋",
+        "stationId": "467050",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.80"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "桃園市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "08"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "新屋區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "047"
+          }
+        ]
+      },
+      {
+        "lat": "24.0661470000000010",
+        "lon": "120.66091900000001",
+        "locationName": "國三N208K",
+        "stationId": "CAF050",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "霧峰區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "143"
+          }
+        ]
+      },
+      {
+        "lat": "23.6102920000000010",
+        "lon": "120.43686700000001",
+        "locationName": "國一N250K",
+        "stationId": "CAL010",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "嘉義縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "17"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "大林鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "202"
+          }
+        ]
+      },
+      {
+        "lat": "23.509974",
+        "lon": "120.805123",
+        "locationName": "阿里山",
+        "stationId": "467530",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "17.40"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "嘉義縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "17"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "阿里山鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "208"
+          }
+        ]
+      },
+      {
+        "lat": "24.257753",
+        "lon": "120.515211",
+        "locationName": "梧棲",
+        "stationId": "467770",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "梧棲區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "118"
+          }
+        ]
+      },
+      {
+        "lat": "22.567733",
+        "lon": "120.307664",
+        "locationName": "高雄",
+        "stationId": "467440",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "高雄市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "05"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "前鎮區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "328"
+          }
+        ]
+      },
+      {
+        "lat": "24.2267210000000010",
+        "lon": "120.58905799999999",
+        "locationName": "國三S178K",
+        "stationId": "CAF080",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "30.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "沙鹿區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "120"
+          }
+        ]
+      },
+      {
+        "lat": "23.258657",
+        "lon": "119.659350",
+        "locationName": "東吉島",
+        "stationId": "467300",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "30.70"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "澎湖縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "23"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "望安鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "231"
+          }
+        ]
+      },
+      {
+        "lat": "24.397980",
+        "lon": "120.669487",
+        "locationName": "國三S156K",
+        "stationId": "CAE090",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "30.80"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "苗栗縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "11"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "苑裡鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "102"
+          }
+        ]
+      },
+      {
+        "lat": "23.099281",
+        "lon": "121.365342",
+        "locationName": "成功",
+        "stationId": "467610",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "30.60"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺東縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "22"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "成功鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "258"
+          }
+        ]
+      },
+      {
+        "lat": "24.3754920000000010",
+        "lon": "120.749184",
+        "locationName": "國一S152K",
+        "stationId": "CAE050",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "30.60"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "苗栗縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "11"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "三義鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "106"
+          }
+        ]
+      },
+      {
+        "lat": "23.6353",
+        "lon": "120.544280",
+        "locationName": "古坑",
+        "stationId": "A2K570",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "雲林縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "16"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "古坑鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "196"
+          }
+        ]
+      },
+      {
+        "lat": "25.135130",
+        "lon": "121.732265",
+        "locationName": "基隆",
+        "stationId": "466940",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "基隆市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "03"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "仁愛區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "015"
+          }
+        ]
+      },
+      {
+        "lat": "24.5959399999999990",
+        "lon": "120.860710",
+        "locationName": "國一S123K",
+        "stationId": "CAE030",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.60"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "苗栗縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "11"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "頭屋鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "094"
+          }
+        ]
+      },
+      {
+        "lat": "22.038771",
+        "lon": "121.550317",
+        "locationName": "蘭嶼",
+        "stationId": "467620",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "29.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺東縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "22"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "蘭嶼鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "351"
+          }
+        ]
+      },
+      {
+        "lat": "24.092468",
+        "lon": "120.603256",
+        "locationName": "國三S202K",
+        "stationId": "CAG060",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "彰化縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "14"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "彰化市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "142"
+          }
+        ]
+      },
+      {
+        "lat": "24.147495",
+        "lon": "120.675914",
+        "locationName": "臺中",
+        "stationId": "467490",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.60"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "北區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "128"
+          }
+        ]
+      },
+      {
+        "lat": "24.2739699999999980",
+        "lon": "120.593079",
+        "locationName": "國三S173K",
+        "stationId": "CAF070",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "30.80"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "清水區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "112"
+          }
+        ]
+      },
+      {
+        "lat": "23.9883039999999990",
+        "lon": "120.508092",
+        "locationName": "國一S207K",
+        "stationId": "CAG030",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "彰化縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "14"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "大村鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "153"
+          }
+        ]
+      },
+      {
+        "lat": "24.829629",
+        "lon": "121.006019",
+        "locationName": "新竹",
+        "stationId": "467571",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.30"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "新竹縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "10"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "竹北市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "064"
+          }
+        ]
+      },
+      {
+        "lat": "25.166689",
+        "lon": "121.440690",
+        "locationName": "淡水",
+        "stationId": "466900",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "-99"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "新北市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "06"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "淡水區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "004"
+          }
+        ]
+      },
+      {
+        "lat": "24.0068300000000010",
+        "lon": "120.65321400000001",
+        "locationName": "國三S217K",
+        "stationId": "CAH020",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "南投縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "13"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "草屯鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "152"
+          }
+        ]
+      },
+      {
+        "lat": "24.146253",
+        "lon": "121.268245",
+        "locationName": "合歡山",
+        "stationId": "A0Z080",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "17.40"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "花蓮縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "21"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "秀林鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "108"
+          }
+        ]
+      },
+      {
+        "lat": "24.427350",
+        "lon": "118.255590",
+        "locationName": "九宮碼頭",
+        "stationId": "A0W100",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "28.30"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "金門縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "99"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "烈嶼鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "999"
+          }
+        ]
+      },
+      {
+        "lat": "23.567203",
+        "lon": "119.554957",
+        "locationName": "澎湖",
+        "stationId": "467350",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.70"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "澎湖縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "23"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "馬公市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "212"
+          }
+        ]
+      },
+      {
+        "lat": "24.999447",
+        "lon": "121.433812",
+        "locationName": "板橋",
+        "stationId": "466880",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "35.30"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "新北市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "06"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "板橋區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "041"
+          }
+        ]
+      },
+      {
+        "lat": "25.629811",
+        "lon": "122.071506",
+        "locationName": "彭佳嶼",
+        "stationId": "466950",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "基隆市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "03"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "中正區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "011"
+          }
+        ]
+      },
+      {
+        "lat": "23.955116",
+        "lon": "120.66237599999999",
+        "locationName": "國三N223K",
+        "stationId": "CAH010",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.60"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "南投縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "13"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "草屯鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "152"
+          }
+        ]
+      },
+      {
+        "lat": "25.184391",
+        "lon": "121.521515",
+        "locationName": "鞍部",
+        "stationId": "466910",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "29.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺北市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "01"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "北投區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "006"
+          }
+        ]
+      },
+      {
+        "lat": "24.960840",
+        "lon": "121.516499",
+        "locationName": "新店",
+        "stationId": "A0A9M0",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "新北市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "06"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "新店區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "050"
+          }
+        ]
+      },
+      {
+        "lat": "24.765792",
+        "lon": "121.748343",
+        "locationName": "宜蘭",
+        "stationId": "467080",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.70"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "宜蘭縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "07"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "宜蘭市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "075"
+          }
+        ]
+      },
+      {
+        "lat": "22.357445",
+        "lon": "120.895740",
+        "locationName": "大武",
+        "stationId": "467540",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "34.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺東縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "22"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "大武鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "342"
+          }
+        ]
+      },
+      {
+        "lat": "24.1071549999999990",
+        "lon": "120.55448199999999",
+        "locationName": "國三N196K",
+        "stationId": "CAG050",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.80"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "彰化縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "14"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "彰化市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "142"
+          }
+        ]
+      },
+      {
+        "lat": "24.2964650000000010",
+        "lon": "120.643135",
+        "locationName": "國四E5K",
+        "stationId": "CAF090",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "神岡區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "114"
+          }
+        ]
+      },
+      {
+        "lat": "24.598558",
+        "lon": "121.849199",
+        "locationName": "蘇澳",
+        "stationId": "467060",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.40"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "宜蘭縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "07"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "蘇澳鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "354"
+          }
+        ]
+      },
+      {
+        "lat": "24.381794",
+        "lon": "121.351835",
+        "locationName": "武陵",
+        "stationId": "D2F230",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "27.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "和平區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "104"
+          }
+        ]
+      },
+      {
+        "lat": "24.295534",
+        "lon": "120.695976",
+        "locationName": "國一S162K",
+        "stationId": "CAF020",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "30.80"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "后里區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "111"
+          }
+        ]
+      },
+      {
+        "lat": "25.163883",
+        "lon": "121.536332",
+        "locationName": "竹子湖",
+        "stationId": "466930",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "29.60"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺北市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "01"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "北投區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "006"
+          }
+        ]
+      },
+      {
+        "lat": "22.005659",
+        "lon": "120.738307",
+        "locationName": "恆春",
+        "stationId": "467590",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "屏東縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "20"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "恆春鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "350"
+          }
+        ]
+      },
+      {
+        "lat": "24.1185459999999980",
+        "lon": "120.585747",
+        "locationName": "國一S188K",
+        "stationId": "CAF040",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "大肚區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "127"
+          }
+        ]
+      },
+      {
+        "lat": "23.489387",
+        "lon": "120.951406",
+        "locationName": "玉山",
+        "stationId": "467550",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "16.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "南投縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "13"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "信義鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "175"
+          }
+        ]
+      },
+      {
+        "lat": "23.800517",
+        "lon": "120.209572",
+        "locationName": "麥寮",
+        "stationId": "A0K420",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.90"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "雲林縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "16"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "麥寮鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "179"
+          }
+        ]
+      },
+      {
+        "lat": "24.237116",
+        "lon": "120.688271",
+        "locationName": "國一S169K",
+        "stationId": "CAF030",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺中市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "02"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "神岡區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "114"
+          }
+        ]
+      },
+      {
+        "lat": "24.408935",
+        "lon": "118.281080",
+        "locationName": "金門",
+        "stationId": "467110",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "金門縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "99"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "金城鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "999"
+          }
+        ]
+      },
+      {
+        "lat": "24.418303",
+        "lon": "118.425131",
+        "locationName": "金門(東)",
+        "stationId": "A0W030",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.30"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "金門縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "99"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "金湖鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "999"
+          }
+        ]
+      },
+      {
+        "lat": "24.083140",
+        "lon": "120.548508",
+        "locationName": "彰師大",
+        "stationId": "A0G720",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.40"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "彰化縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "14"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "彰化市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "142"
+          }
+        ]
+      },
+      {
+        "lat": "24.139256",
+        "lon": "120.5215",
+        "locationName": "國三N191K",
+        "stationId": "CAG040",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.70"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "彰化縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "14"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "和美鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "132"
+          }
+        ]
+      },
+      {
+        "lat": "24.161808",
+        "lon": "121.606851",
+        "locationName": "太魯閣",
+        "stationId": "A0T780",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "-99"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "花蓮縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "21"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "秀林鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "108"
+          }
+        ]
+      },
+      {
+        "lat": "24.063889",
+        "lon": "120.523056",
+        "locationName": "國一N198K",
+        "stationId": "CAG010",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "彰化縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "14"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "彰化市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "142"
+          }
+        ]
+      },
+      {
+        "lat": "20.702420",
+        "lon": "116.722007",
+        "locationName": "東沙島",
+        "stationId": "468100",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "高雄市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "05"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "旗津區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "329"
+          }
+        ]
+      },
+      {
+        "lat": "24.692083",
+        "lon": "121.395730",
+        "locationName": "拉拉山",
+        "stationId": "A0C540",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "-99"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "桃園市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "08"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "復興區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "067"
+          }
+        ]
+      },
+      {
+        "lat": "24.6688350000000010",
+        "lon": "120.885811",
+        "locationName": "國一S114K",
+        "stationId": "CAE020",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "苗栗縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "11"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "頭份市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "999"
+          }
+        ]
+      },
+      {
+        "lat": "22.994974",
+        "lon": "120.196676",
+        "locationName": "南區中心",
+        "stationId": "467410",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.70"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺南市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "04"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "中西區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "275"
+          }
+        ]
+      },
+      {
+        "lat": "23.883096",
+        "lon": "120.899909",
+        "locationName": "日月潭",
+        "stationId": "467650",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "25.90"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "南投縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "13"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "魚池鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "164"
+          }
+        ]
+      },
+      {
+        "lat": "23.976936",
+        "lon": "121.605138",
+        "locationName": "花蓮",
+        "stationId": "466990",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "31.50"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "花蓮縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "21"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "花蓮市"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "150"
+          }
+        ]
+      },
+      {
+        "lat": "23.774120",
+        "lon": "120.640610",
+        "locationName": "國三N252K",
+        "stationId": "CAJ010",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.20"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "雲林縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "16"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "林內鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "186"
+          }
+        ]
+      },
+      {
+        "lat": "23.875560",
+        "lon": "120.573150",
+        "locationName": "田中",
+        "stationId": "467270",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "33.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "彰化縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "14"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "田中鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "170"
+          }
+        ]
+      },
+      {
+        "lat": "23.746330",
+        "lon": "120.46792600000001",
+        "locationName": "國一N234K",
+        "stationId": "CAJ020",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "雲林縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "16"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "西螺鎮"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "182"
+          }
+        ]
+      },
+      {
+        "lat": "26.170981",
+        "lon": "119.915113",
+        "locationName": "馬祖",
+        "stationId": "467990",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "29.60"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "連江縣"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "99"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "南竿鄉"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "999"
+          }
+        ]
+      },
+      {
+        "lat": "23.040122",
+        "lon": "120.228602",
+        "locationName": "永康",
+        "stationId": "467420",
+        "time": {
+          "obsTime": "2020-07-05 11:30:00"
+        },
+        "weatherElement": [
+          {
+            "elementName": "TEMP",
+            "elementValue": "32.10"
+          }
+        ],
+        "parameter": [
+          {
+            "parameterName": "CITY",
+            "parameterValue": "臺南市"
+          },
+          {
+            "parameterName": "CITY_SN",
+            "parameterValue": "04"
+          },
+          {
+            "parameterName": "TOWN",
+            "parameterValue": "永康區"
+          },
+          {
+            "parameterName": "TOWN_SN",
+            "parameterValue": "268"
+          }
+        ]
+      }
+    ]
+  }
+}
