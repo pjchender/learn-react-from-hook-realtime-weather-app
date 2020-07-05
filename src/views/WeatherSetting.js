@@ -94,10 +94,17 @@ const Save = styled.button`
   }
 `;
 
-const WeatherSetting = ({ handleCurrentPageChange }) => {
-  const inputLocationRef = useRef(null);
+const WeatherSetting = ({ cityName, handleCurrentCityChange, handleCurrentPageChange }) => {
+  const [locationName, setLocationName] = useState(cityName);
+
+  const handleChange = (e) => {
+    setLocationName(e.target.value);
+  };
+
   const handleSave = () => {
-    console.log('value', inputLocationRef.current.value);
+    console.log(`儲存的地區資訊為：${locationName}`);
+    handleCurrentCityChange(locationName);
+    handleCurrentPageChange('WeatherCard');
   };
 
   return (
@@ -108,8 +115,8 @@ const WeatherSetting = ({ handleCurrentPageChange }) => {
       <StyledSelect
         id="location"
         name="location"
-        ref={inputLocationRef}
-        defaultValue="臺南市"
+        onChange={handleChange}
+        value={locationName}
       >
         {availableLocations.map(({ cityName }) => (
           <option value={cityName} key={cityName}>
