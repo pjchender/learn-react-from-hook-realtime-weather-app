@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from '@emotion/styled';
 import { availableLocations } from './../utils/helpers';
+import styled from '@emotion/styled';
 
 const WeatherSettingWrapper = styled.div`
   position: relative;
@@ -93,7 +93,7 @@ const Save = styled.button`
   }
 `;
 
-const WeatherSetting = () => {
+const WeatherSetting = ({ handleCurrentPageChange }) => {
   return (
     <WeatherSettingWrapper>
       <Title>設定</Title>
@@ -108,7 +108,7 @@ const WeatherSetting = () => {
       </StyledSelect>
 
       <ButtonGroup>
-        <Back>返回</Back>
+        <Back onClick={() => handleCurrentPageChange('WeatherCard')}>返回</Back>
         <Save>儲存</Save>
       </ButtonGroup>
     </WeatherSettingWrapper>
