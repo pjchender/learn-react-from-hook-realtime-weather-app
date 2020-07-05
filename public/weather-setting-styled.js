@@ -1,11 +1,3 @@
-# 新增地區設定頁面
-
-## 本單元中使用到的程式碼片段
-
-### WeatherSetting 元件 Styled Components 部分
-
-```jsx
-// ./src/views/WeatherSetting.js
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
 import { availableLocations } from './utils';
@@ -100,28 +92,3 @@ const Save = styled.button`
     background-color: #40a9f3;
   }
 `;
-```
-
-### WeatherSetting 元件 JSX 部分
-
-```jsx
-// ./src/views/WeatherSetting.js
-// ...
-const WeatherSetting = () => {
-  return (
-    <WeatherSettingWrapper>
-      <Title>設定</Title>
-      <StyledLabel htmlFor="location">地區</StyledLabel>
-
-      <StyledSelect id="location" name="location">
-        {/* 定義可以選擇的地區選項 */}
-      </StyledSelect>
-
-      <ButtonGroup>
-        <Back>返回</Back>
-        <Save>儲存</Save>
-      </ButtonGroup>
-    </WeatherSettingWrapper>
-  );
-};
-```
