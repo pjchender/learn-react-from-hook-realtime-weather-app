@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b397097029ae093f664b7bafd45f8606",
+    "revision": "240b54378d11b382baa99343e6506d29",
     "url": "/learn-react-from-hook-realtime-weather-app/index.html"
   },
   {
-    "revision": "fb6f63199f3f67b4ccac",
+    "revision": "0b79215ee406b6dacc49",
     "url": "/learn-react-from-hook-realtime-weather-app/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "e046a1ba07ab5560fffa",
+    "revision": "3aa494079664b3606e46",
     "url": "/learn-react-from-hook-realtime-weather-app/static/css/main.24415f16.chunk.css"
   },
   {
-    "revision": "fb6f63199f3f67b4ccac",
-    "url": "/learn-react-from-hook-realtime-weather-app/static/js/2.a5dd0b81.chunk.js"
+    "revision": "0b79215ee406b6dacc49",
+    "url": "/learn-react-from-hook-realtime-weather-app/static/js/2.1b41a4c6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/learn-react-from-hook-realtime-weather-app/static/js/2.a5dd0b81.chunk.js.LICENSE.txt"
+    "url": "/learn-react-from-hook-realtime-weather-app/static/js/2.1b41a4c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e046a1ba07ab5560fffa",
-    "url": "/learn-react-from-hook-realtime-weather-app/static/js/main.89f269b6.chunk.js"
+    "revision": "3aa494079664b3606e46",
+    "url": "/learn-react-from-hook-realtime-weather-app/static/js/main.5c864c57.chunk.js"
   },
   {
     "revision": "b5c3d93225ff73e9e643",
