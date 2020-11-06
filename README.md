@@ -11,6 +11,10 @@
 $ npx create-react-app my-app --template cra-template-pwa
 ```
 
+如果你的專案已經完成，但先前沒套用到 pwa 的 template 的話，可以參考這個 repository 把對應和 PWA 有關的檔案複製到 src 中：
+
+[cra-template-pwa](https://github.com/cra-template/pwa/tree/master/packages/cra-template-pwa/template/src)
+
 ### 升級到 create-react-app v4
 
 如果你是在 2020-10-23 安裝前安裝的 create-react-app，當時還是 create-react-app v3，可以透過下述指令升級到 create-react-app v4：
@@ -34,6 +38,10 @@ $ npm install --save --save-exact react-scripts@4.0.0
 - [React Router](https://reactrouter.com/)
 - [Redux](https://redux.js.org/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+
+### Styled Components 相關
+
+- [The magic behind 💅 styled-components](https://mxstbr.blog/2016/11/styled-components-magic-explained/)：說明 styled component 如何使用 template literal 中的 tagged template 方式，來取得元件中 props 的值
 
 ### 部署屬相關
 
