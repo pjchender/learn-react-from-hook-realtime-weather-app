@@ -26,7 +26,7 @@ export const availableLocations = [
   },
   {
     cityName: '雲林縣',
-    locationName: '雲林',
+    locationName: '國一N234K',
     sunriseCityName: '雲林縣',
   },
   {
@@ -71,12 +71,12 @@ export const availableLocations = [
   },
   {
     cityName: '臺南市',
-    locationName: '南區中心',
+    locationName: '臺南',
     sunriseCityName: '臺南市',
   },
   {
     cityName: '南投縣',
-    locationName: '日月潭',
+    locationName: '國三N223K',
     sunriseCityName: '南投縣',
   },
   {
