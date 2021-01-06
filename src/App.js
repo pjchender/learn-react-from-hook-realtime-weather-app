@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { findLocation, getMoment } from './utils/helpers';
 
-import { ThemeProvider } from 'emotion-theming';
+import { ThemeProvider } from '@emotion/react';
 import WeatherCard from './views/WeatherCard';
 import WeatherSetting from './views/WeatherSetting';
 import styled from '@emotion/styled';
