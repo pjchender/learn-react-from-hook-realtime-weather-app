@@ -1,29 +1,26 @@
 # 【從 Hooks 開始，讓網頁 React 起來】台灣好天氣 - 臺灣即時天氣 App 🇹🇼
 
-## create-react-app 補充
+## create-react-app 更新異動
 
-### create-react-app v4
-
-在 2020-10-23 之後使用的 create-react-app 將會是 v4，第四版後建立的專案預設將不會包含 Progressive Web App (PWA) 中使用 service worker 在內，若你希望建立的是包含有 service worker，的 React 專案，請使用：
+create-react-app 在 v4 版本的 API 有變更，建立專案時請以下述指令執行，才會開啟 Progressive Web App 的功能：
 
 ```bash
-# my-app 請換成專案想要的名稱
-$ npx create-react-app my-app --template cra-template-pwa
+# <my-app> 請換成專案想取的名稱
+npx create-react-app <my-app> --template cra-template-pwa
 ```
 
-如果你的專案已經完成，但先前沒套用到 pwa 的 template 的話，可以參考這個 repository 把對應和 PWA 有關的檔案複製到 src 中：
+進一步的說明請參考 [CRA 建立專案方式異動](https://pjchender.github.io/react-bootcamp/docs/book)
 
-[cra-template-pwa](https://github.com/cra-template/pwa/tree/master/packages/cra-template-pwa/template/src)
+## emotion 更新異動
 
-### 升級到 create-react-app v4
-
-如果你是在 2020-10-23 安裝前安裝的 create-react-app，當時還是 create-react-app v3，可以透過下述指令升級到 create-react-app v4：
+在 emotion 11 中，將原本的套件名稱從 `@emotion/core` 改為 `@emotion/react`，並將 `emotion-theming` 這個套件整併到 `@emotion/react` 內。因此在安裝 emotion 時，可將指令修改為：
 
 ```bash
-$ npm install --save --save-exact react-scripts@4.0.0
+# 安裝 emotion11
+npm install @emotion/react @emotion/styled
 ```
 
-> [ChangeLog](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
+進一步的說明請參考 [emotion 安裝方式異動](https://pjchender.github.io/react-bootcamp/docs/book/errata/emotion)
 
 ## 補充連結
 
