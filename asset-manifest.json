@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/learn-react-from-hook-realtime-weather-app/static/css/main.8f29048e.chunk.css",
-    "main.js": "/learn-react-from-hook-realtime-weather-app/static/js/main.07037e13.chunk.js",
-    "main.js.map": "/learn-react-from-hook-realtime-weather-app/static/js/main.07037e13.chunk.js.map",
-    "runtime-main.js": "/learn-react-from-hook-realtime-weather-app/static/js/runtime-main.2016df21.js",
-    "runtime-main.js.map": "/learn-react-from-hook-realtime-weather-app/static/js/runtime-main.2016df21.js.map",
+    "main.js": "/learn-react-from-hook-realtime-weather-app/static/js/main.bed33cd7.chunk.js",
+    "main.js.map": "/learn-react-from-hook-realtime-weather-app/static/js/main.bed33cd7.chunk.js.map",
+    "runtime-main.js": "/learn-react-from-hook-realtime-weather-app/static/js/runtime-main.c26b4df6.js",
+    "runtime-main.js.map": "/learn-react-from-hook-realtime-weather-app/static/js/runtime-main.c26b4df6.js.map",
     "static/css/2.679831fc.chunk.css": "/learn-react-from-hook-realtime-weather-app/static/css/2.679831fc.chunk.css",
-    "static/js/2.0585e6da.chunk.js": "/learn-react-from-hook-realtime-weather-app/static/js/2.0585e6da.chunk.js",
-    "static/js/2.0585e6da.chunk.js.map": "/learn-react-from-hook-realtime-weather-app/static/js/2.0585e6da.chunk.js.map",
+    "static/js/2.54114341.chunk.js": "/learn-react-from-hook-realtime-weather-app/static/js/2.54114341.chunk.js",
+    "static/js/2.54114341.chunk.js.map": "/learn-react-from-hook-realtime-weather-app/static/js/2.54114341.chunk.js.map",
     "index.html": "/learn-react-from-hook-realtime-weather-app/index.html",
     "static/css/2.679831fc.chunk.css.map": "/learn-react-from-hook-realtime-weather-app/static/css/2.679831fc.chunk.css.map",
     "static/css/main.8f29048e.chunk.css.map": "/learn-react-from-hook-realtime-weather-app/static/css/main.8f29048e.chunk.css.map",
-    "static/js/2.0585e6da.chunk.js.LICENSE.txt": "/learn-react-from-hook-realtime-weather-app/static/js/2.0585e6da.chunk.js.LICENSE.txt",
+    "static/js/2.54114341.chunk.js.LICENSE.txt": "/learn-react-from-hook-realtime-weather-app/static/js/2.54114341.chunk.js.LICENSE.txt",
     "static/media/airFlow.93b49bb5.svg": "/learn-react-from-hook-realtime-weather-app/static/media/airFlow.93b49bb5.svg",
     "static/media/cog.64eda1d3.svg": "/learn-react-from-hook-realtime-weather-app/static/media/cog.64eda1d3.svg",
     "static/media/day-clear.8857a9c1.svg": "/learn-react-from-hook-realtime-weather-app/static/media/day-clear.8857a9c1.svg",
@@ -33,10 +33,10 @@
     "static/media/refresh.e352fc8b.svg": "/learn-react-from-hook-realtime-weather-app/static/media/refresh.e352fc8b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2016df21.js",
+    "static/js/runtime-main.c26b4df6.js",
     "static/css/2.679831fc.chunk.css",
-    "static/js/2.0585e6da.chunk.js",
+    "static/js/2.54114341.chunk.js",
     "static/css/main.8f29048e.chunk.css",
-    "static/js/main.07037e13.chunk.js"
+    "static/js/main.bed33cd7.chunk.js"
   ]
 }
