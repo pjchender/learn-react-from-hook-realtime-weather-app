@@ -3,21 +3,6 @@
   "name": "臺灣好天氣-即時縣市天氣",
   "icons": [
     {
-      "src": "icon@x48.png",
-      "type": "image/png",
-      "sizes": "48 × 48"
-    },
-    {
-      "src": "icon@96.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "icon@144.png",
-      "type": "image/png",
-      "sizes": "144x144"
-    },
-    {
       "src": "icon@192.png",
       "type": "image/png",
       "sizes": "192x192"
