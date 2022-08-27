@@ -1,3 +1,5 @@
+import styled from '@emotion/styled';
+
 const Container = styled.div`
   background-color: ${({ theme }) => theme.backgroundColor};
   height: 100%;
@@ -87,4 +89,11 @@ const Refresh = styled.div`
   display: inline-flex;
   align-items: flex-end;
   color: ${({ theme }) => theme.textColor};
+
+  svg {
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
 `;

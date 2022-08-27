@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styled from '@emotion/styled';
-import { ThemeProvider } from 'emotion-theming';
+import { ThemeProvider } from '@emotion/react';
 import dayjs from 'dayjs';
 
 import { ReactComponent as DayCloudyIcon } from './images/day-cloudy.svg';
@@ -128,6 +128,7 @@ const Refresh = styled.div`
 
 const App = () => {
   const [currentTheme, setCurrentTheme] = useState('light');
+
   // STEP 2：定義會使用到的資料狀態
   const [currentWeather, setCurrentWeather] = useState({
     observationTime: '2020-12-12 22:10:00',
@@ -168,6 +169,6 @@ const App = () => {
       </Container>
     </ThemeProvider>
   );
-};
+};;
 
 export default App;
