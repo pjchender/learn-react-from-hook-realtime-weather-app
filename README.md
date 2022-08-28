@@ -3,3 +3,4 @@
 ## 參考連結
 
 - [Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) @ MDN
+- [Lazy initial state](https://reactjs.org/docs/hooks-reference.html#lazy-initial-state) @ ReactDoc
