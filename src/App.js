@@ -1,10 +1,10 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { ThemeProvider } from '@emotion/react';
+import styled from '@emotion/styled';
 
-import { ThemeProvider } from 'emotion-theming';
 import WeatherCard from './views/WeatherCard';
 import WeatherSetting from './views/WeatherSetting';
 import { getMoment } from './utils/helpers';
-import styled from '@emotion/styled';
 import useWeatherAPI from './hooks/useWeatherAPI';
 
 const theme = {

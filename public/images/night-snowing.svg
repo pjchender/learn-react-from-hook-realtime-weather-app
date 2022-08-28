@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="151px" viewBox="0 0 135 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>night-snowing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="24.4644699%" y1="72.8710355%" x2="63.7305027%" y2="39.9796208%" id="linearGradient-1">
+            <stop stop-color="#F2F2F2" offset="0%"></stop>
+            <stop stop-color="#CFCFCF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.5523774%" y1="64.8727273%" x2="8.66000803%" y2="22.6545455%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="2%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="night-snowing" transform="translate(0.000000, 1.000000)">
+            <path d="M109.998732,46.2237968 C99.5211827,45.3756387 89.9953571,39.8116302 84.1041444,31.0988396 C78.2129317,22.3860489 76.5938107,11.4672733 79.7027967,1.41771753 C79.8627025,0.8404808 79.6637666,0.223394967 79.1969238,-0.151465896 C78.730081,-0.526326759 78.0850295,-0.586937761 77.5566267,-0.305593206 C64.831216,6.91473344 58.0098378,21.3573203 60.5123312,35.7815012 C63.0148247,50.2056821 74.3016468,61.5015734 88.7142469,64.0060776 C103.126847,66.5105819 117.557838,59.6837226 124.772368,46.9480868 C125.104961,46.4155568 125.070491,45.7319644 124.686017,45.235651 C124.301544,44.7393375 123.648633,44.5355953 123.050441,44.7252657 C118.834836,46.0516413 114.404949,46.5602585 109.998732,46.2237968 L109.998732,46.2237968 Z" id="Path" fill="#EFCC00" fill-rule="nonzero"></path>
+            <path d="M43.7846986,34.5188206 C59.965981,34.5137664 74.8214334,43.4307391 82.3800995,57.6856793 C94.8680469,50.4114111 110.593908,51.7238343 121.693246,60.9666117 C132.792585,70.2093891 136.879845,85.3959908 131.911005,98.9316626 C126.942165,112.467334 113.985167,121.442884 99.5197508,121.369678 L43.6599558,121.518821 C19.5472281,121.518821 0,102.043208 0,78.0188206 C0,53.9944356 19.5472281,34.5188206 43.6599558,34.5188206 L43.7846986,34.5188206 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(99.782296, 87.183986) rotate(-74.390000) translate(-99.782296, -87.183986) " cx="99.7822963" cy="87.1839858" rx="34.1705349" ry="34.2478481"></ellipse>
+            <path d="M65,74.5188206 L65,99.5188206" id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round"></path>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="68 71.5188206 65.012766 75.5188206 62 71.5188206"></polyline>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="62 103.518821 65.012766 99.5188206 68 103.518821"></polyline>
+            <path d="M76,80.5188206 L54,93.5188206" id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round"></path>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="81 81.5188206 76 80.8080362 77.827957 76.5188206"></polyline>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="50 92.5188206 55 93.2050951 53.172043 97.5188206"></polyline>
+            <path d="M76,93.5188206 L54,80.5188206" id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round"></path>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="77.827957 97.5188206 76 93.2050951 81 92.5188206"></polyline>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="53.172043 76.5188206 55 80.8080362 50 81.5188206"></polyline>
+            <circle id="Oval" fill="#C4C4C4" fill-rule="nonzero" cx="51" cy="138.518821" r="5"></circle>
+            <circle id="Oval" fill="#E0E0E0" fill-rule="nonzero" cx="75.5" cy="146.018821" r="3.5"></circle>
+            <circle id="Oval" fill="#E0E0E0" fill-rule="nonzero" cx="31.5" cy="128.018821" r="3.5"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="66.5" cy="128.018821" r="2.5"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="100.5" cy="146.018821" r="2.5"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="28.5" cy="146.018821" r="2.5"></circle>
+            <circle id="Oval" fill="#C4C4C4" fill-rule="nonzero" cx="91" cy="130.518821" r="5"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,6 +1,5 @@
 // ./src/components/WeatherIcon.js
 
-import React from 'react';
 import styled from '@emotion/styled';
 import { ReactComponent as DayThunderstorm } from './../images/day-thunderstorm.svg';
 import { ReactComponent as DayClear } from './../images/day-clear.svg';
