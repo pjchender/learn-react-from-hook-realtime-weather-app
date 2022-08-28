@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="153px" viewBox="0 0 134 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>night-partially-clear-with-rain</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="24.4644699%" y1="73.2162538%" x2="63.7305027%" y2="39.8283719%" id="linearGradient-1">
+            <stop stop-color="#F2F2F2" offset="0%"></stop>
+            <stop stop-color="#CFCFCF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.6545455%" y1="64.7966936%" x2="8.47272727%" y2="22.8606986%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="2%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="night-partially-clear-with-rain" transform="translate(0.000000, 1.000000)">
+            <path d="M108.229521,46.4798345 C97.9131645,45.6316764 88.53389,40.0676679 82.7333114,31.3548773 C76.9327327,22.6420866 75.3385213,11.723311 78.3996768,1.67375525 C78.5571225,1.09651852 78.3612471,0.479432685 77.9015865,0.104571822 C77.4419259,-0.270289041 76.8067983,-0.330900043 76.2865247,-0.0495554888 C63.7568896,7.17077115 57.0404557,21.613358 59.5044492,36.0375389 C61.9684428,50.4617198 73.0816215,61.7576111 87.2724893,64.2621154 C101.463357,66.7666196 115.672333,59.9397603 122.77587,47.2041245 C123.103347,46.6715945 123.069406,45.9880021 122.690848,45.4916887 C122.31229,44.9953753 121.669424,44.791633 121.080434,44.9813034 C116.929684,46.3076791 112.56795,46.8162962 108.229521,46.4798345 L108.229521,46.4798345 Z" id="Path" fill="#EFCC00" fill-rule="nonzero"></path>
+            <path d="M43.4579471,34.7748583 C59.5184737,34.7698041 74.2630645,43.6867768 81.7653227,57.941717 C94.1600764,50.6674488 109.76858,51.979872 120.785087,61.2226494 C131.801595,70.4654268 135.858353,85.6520285 130.926594,99.1877003 C125.994835,112.723372 113.134532,121.698922 98.7770661,121.625715 L43.3341353,121.774858 C19.4013532,121.774858 0,102.299245 0,78.2748583 C0,54.2504733 19.4013532,34.7748583 43.3341353,34.7748583 L43.4579471,34.7748583 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(99.079604, 87.183986) rotate(-74.390000) translate(-99.079604, -87.183986) " cx="99.079604" cy="87.1839858" rx="34.1530826" ry="34.0241017"></ellipse>
+            <path d="M66,132.774858 L66,149.774858" id="Path" stroke="#0BAEFF" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M51,127.774858 L51,144.774858" id="Path" stroke="#0BAEFF" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M80,127.774858 L80,144.774858" id="Path" stroke="#0BAEFF" stroke-width="3" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

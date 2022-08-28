@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="151px" viewBox="0 0 136 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>day-snowing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="24.3617045%" y1="72.8710337%" x2="63.6421593%" y2="39.9796521%" id="linearGradient-1">
+            <stop stop-color="#F2F2F2" offset="0%"></stop>
+            <stop stop-color="#CFCFCF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.5161778%" y1="64.8727273%" x2="8.62380839%" y2="22.6545455%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="2%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="day-snowing" transform="translate(0.000000, 2.000000)">
+            <circle id="Oval" fill="#EFCC00" fill-rule="nonzero" cx="84.5" cy="49.4258253" r="31.5"></circle>
+            <path d="M84,-0.0741747291 L84,10.9258253" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M84,87.9258253 L84,98.9258253" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M34,49.9258253 L45,49.9258253" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M123,49.9258253 L134,49.9258253" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M49,14.9258253 L57,22.9258253" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M112,76.9258253 L120,84.9258253" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M49,84.9258253 L57,76.9258253" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M112,22.9258253 L120,14.9258253" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M43.6759917,34.9258253 C59.8900952,34.8931681 74.7864611,43.8141073 82.3604414,58.0927483 C94.8397967,50.8257705 110.55339,52.1268813 121.656555,61.3465298 C132.75972,70.5661784 136.871287,85.7271319 131.938648,99.2606176 C127.006009,112.794103 114.08701,121.797749 99.6311764,121.776683 L43.6759917,121.925825 C19.5544075,121.925825 0,102.450232 0,78.4258702 C0,54.4015084 19.5544075,34.9258253 43.6759917,34.9258253 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(99.376091, 87.169323) rotate(-74.390000) translate(-99.376091, -87.169323) " cx="99.3760914" cy="87.1693226" rx="34.1705349" ry="34.2478481"></ellipse>
+            <path d="M65,74.9258253 L65,99.9258253" id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round"></path>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="68 70.9258253 65.012766 74.9258253 62 70.9258253"></polyline>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="62 102.925825 65.012766 98.9258253 68 102.925825"></polyline>
+            <path d="M76,80.9258253 L54,93.9258253" id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round"></path>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="81 81.9258253 76 81.215041 77.827957 76.9258253"></polyline>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="50 92.9258253 55 93.6120998 53.172043 97.9258253"></polyline>
+            <path d="M76,93.9258253 L54,80.9258253" id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round"></path>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="77.827957 97.9258253 76 93.6120998 81 92.9258253"></polyline>
+            <polyline id="Path" stroke="#9C9FA0" stroke-width="2" stroke-linecap="round" points="53.172043 76.9258253 55 81.215041 50 81.9258253"></polyline>
+            <circle id="Oval" fill="#C4C4C4" fill-rule="nonzero" cx="51" cy="137.925825" r="5"></circle>
+            <circle id="Oval" fill="#E0E0E0" fill-rule="nonzero" cx="75.5" cy="145.425825" r="3.5"></circle>
+            <circle id="Oval" fill="#E0E0E0" fill-rule="nonzero" cx="31.5" cy="128.425825" r="3.5"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="66.5" cy="128.425825" r="2.5"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="100.5" cy="145.425825" r="2.5"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="28.5" cy="145.425825" r="2.5"></circle>
+            <circle id="Oval" fill="#C4C4C4" fill-rule="nonzero" cx="91" cy="130.925825" r="5"></circle>
+        </g>
+    </g>
+</svg>

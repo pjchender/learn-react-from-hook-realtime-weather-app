@@ -1,11 +1,11 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { findLocation, getMoment } from './utils/helpers';
-
+import { useEffect, useMemo, useState } from 'react';
 import { ThemeProvider } from '@emotion/react';
+import styled from '@emotion/styled';
+
 import WeatherCard from './views/WeatherCard';
 import WeatherSetting from './views/WeatherSetting';
-import styled from '@emotion/styled';
 import useWeatherAPI from './hooks/useWeatherAPI';
+import { findLocation, getMoment } from './utils/helpers';
 
 const theme = {
   light: {
@@ -35,11 +35,10 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-const AUTHORIZATION_KEY = process.env.REACT_APP_API_AUTHORIZATION_KEY;
+const AUTHORIZATION_KEY = 'CWB-507B37E0-0383-4D8C-878D-628B54EC3536';
 
 const App = () => {
-  const storageCity = localStorage.getItem('cityName') || '臺北市';
-  const [currentCity, setCurrentCity] = useState(storageCity);
+  const [currentCity, setCurrentCity] = useState(() => localStorage.getItem('cityName') || '臺北市');
   const [currentPage, setCurrentPage] = useState('WeatherCard');
   const [currentTheme, setCurrentTheme] = useState('light');
 

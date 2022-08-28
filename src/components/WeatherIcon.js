@@ -1,4 +1,5 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
+import styled from '@emotion/styled';
 
 import { ReactComponent as DayClear } from './../images/day-clear.svg';
 import { ReactComponent as DayCloudy } from './../images/day-cloudy.svg';
@@ -14,7 +15,6 @@ import { ReactComponent as NightFog } from './../images/night-fog.svg';
 import { ReactComponent as NightPartiallyClearWithRain } from './../images/night-partially-clear-with-rain.svg';
 import { ReactComponent as NightSnowing } from './../images/night-snowing.svg';
 import { ReactComponent as NightThunderstorm } from './../images/night-thunderstorm.svg';
-import styled from '@emotion/styled';
 
 const IconContainer = styled.div`
   flex-basis: 30%;

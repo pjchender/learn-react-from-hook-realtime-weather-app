@@ -1,12 +1,12 @@
+import styled from '@emotion/styled';
+import dayjs from 'dayjs';
+
+import WeatherIcon from './../components/WeatherIcon.js';
 import { ReactComponent as AirFlowIcon } from './../images/airFlow.svg';
 import { ReactComponent as CogIcon } from './../images/cog.svg';
 import { ReactComponent as LoadingIcon } from './../images/loading.svg';
 import { ReactComponent as RainIcon } from './../images/rain.svg';
-import React from 'react';
 import { ReactComponent as RefreshIcon } from './../images/refresh.svg';
-import WeatherIcon from './../components/WeatherIcon.js';
-import dayjs from 'dayjs';
-import styled from '@emotion/styled';
 
 const WeatherCardWrapper = styled.div`
   position: relative;

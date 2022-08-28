@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import styled from '@emotion/styled';
 
 import { availableLocations } from './../utils/helpers';
-import styled from '@emotion/styled';
 
 const WeatherSettingWrapper = styled.div`
   position: relative;

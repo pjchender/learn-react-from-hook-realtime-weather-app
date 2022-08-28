@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="116px" viewBox="0 0 123 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>night-fog</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="night-fog" transform="translate(0.000000, -1.000000)">
+            <path d="M93.1330844,78.5673435 C75.8722923,77.1252141 60.1976777,67.9338869 50.5151927,53.5769372 C40.8327078,39.2199875 38.1877172,21.2474565 43.3236972,4.7112139 C43.6302871,3.71775899 43.2853798,2.63854456 42.4593907,2.00679975 C41.6334015,1.37505494 40.5011825,1.32451254 39.6221517,1.88014505 C18.7950889,13.8722327 7.7019034,37.611297 11.8674916,61.2742356 C16.0330797,84.9371741 34.5667596,103.464401 58.2379401,107.628539 C81.9091205,111.792676 105.656453,100.703353 117.652718,79.8835422 C118.172784,79.0065533 118.103836,77.9009146 117.478842,77.0952819 C116.853848,76.2896493 115.799791,75.9477071 114.820663,76.2329534 C107.807754,78.3924357 100.445118,79.1849292 93.1330844,78.5673435 Z" id="Path" fill="#EFCC00" fill-rule="nonzero"></path>
+            <path d="M110,89.5528563 C97.9620513,89.5528563 83.0887179,89.5528563 82.6410256,89.5528563 C66.2000029,88.4992221 51.3271123,79.5081381 42.8461538,65.4957281 L13,65.4957281 C18.3970661,85.3853074 34.2337536,100.812328 54.3778061,105.803163 C74.5218586,110.793998 95.8103556,104.565012 110,89.5281823 L110,89.5528563 Z" id="Path" fill="#E0E0E0" fill-rule="nonzero"></path>
+            <path d="M46,65.4957281 L9,65.4957281" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M6,78.4957281 L30,78.4957281" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M2,90.4957281 L117,90.4957281" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M68,103.495728 L121,103.495728" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M12,103.495728 L50,103.495728" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M48,115.495728 L96,115.495728" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M22,115.495728 L33,115.495728" id="Path" stroke="#A5A9AA" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M44,78.4957281 L60,78.4957281" id="Path" stroke="#B9C1C6" stroke-width="3" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
