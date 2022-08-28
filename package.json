@@ -2,6 +2,14 @@
   "name": "realtime-weather-app",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:process-sunrise-sunset": "node src/scripts/generateSunriseAndSunsetData/process-sunrise-and-sunset.mjs",
+    "build:sunrise-sunset": "node src/scripts/generateSunriseAndSunsetData/index.mjs",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
@@ -27,12 +35,9 @@
     "workbox-strategies": "^6.5.4",
     "workbox-streams": "^6.5.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "build:sunrise-sunset": "node ./src/utils/filter-sunrise-and-sunset",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.10"
   },
   "overrides": {
     "nth-check": "2.0.1"

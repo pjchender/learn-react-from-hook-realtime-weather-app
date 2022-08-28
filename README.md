@@ -6,6 +6,29 @@
 
 - [日出日沒時刻-全臺各縣市年度逐日日出日沒時刻資料](https://opendata.cwb.gov.tw/dataset/astronomy/A-B0062-001) @ 中央氣象局
 
+## 更新日出與日落資料
+
+由於中央氣象局提供的日出日落時間資料有限（通常是兩年內），所以一旦過了這個時間就需要重新抓取。這裡已經寫好對應的指令來自動更新，使用者只需要：
+
+1. 在專案根目錄建立 `.env` 並且放入 API 授權碼
+
+```
+# .env
+REACT_APP_API_AUTHORIZATION_KEY=CWB-***-***
+```
+
+2. 接著即可透過下述指令自動更新資料：
+
+```bash
+$ npm run build:sunrise-sunset
+```
+
+如果想要手動更新檔案，則可以：
+
+1. 到中央氣象局網站抓取「[日出日落時刻](https://opendata.cwb.gov.tw/dataset/astronomy/A-B0062-001)」的資料，並將資料存檔到 `src/scripts/generateSunriseAndSunsetData/A-B0062-001.json`
+
+2. 執行 `npm run build:process-sunrise-sunset`，執行完畢後，就可以在 `src/utils/` 中有一份 `sunrise-sunset.json` 檔案，這檔案就是我們要的日出日落時間資料。
+
 ## 補充內容
 
 ### 取得日出與日落資料
@@ -30,9 +53,9 @@
 
 其實在這麼多的資料中，我們只需要日出和日落的資料，很多額外的資訊是用不到的，因此接下來我們要從這份資料中過濾出「台灣好天氣 App」真正需要用得到的資料，這個過程會比較瑣碎一些，而且和 React 的學習上並沒這麼直接的關係，若目前對於這個部分沒興趣的話，可以直接跳過，最後會附上過濾後的資料。
 
-這裡先在專案中的 `src` 資料中在新增一個 `utils` 資料夾，並把從中央氣象局「[日出日沒時刻-全臺各縣市年度逐日日出日沒時刻資料](https://opendata.cwb.gov.tw/dataset/astronomy/A-B0062-001)」下載好的資料存放在內。
+這裡先在專案中的 `src` 資料中在新增一個 `scripts/generateSunriseAndSunsetData` 資料夾，並把從中央氣象局「[日出日沒時刻-全臺各縣市年度逐日日出日沒時刻資料](https://opendata.cwb.gov.tw/dataset/astronomy/A-B0062-001)」下載好的資料存放在內。
 
-接著同樣在 `utils` 資料夾中，新增一個名為 `filter-sunrise-and-sunset.js` 的檔案，我們將透過這個檔案來過濾出我們需要的資料。這支程式內容並不是本書的重點，讀者僅需知道透過這支檔案，會進行以下的過濾：
+接著同樣在 `generateSunriseAndSunsetData` 資料夾中，新增一個名為 `process-sunrise-and-sunset.mjs` 的檔案，我們將透過這個檔案來過濾出我們需要的資料。這支程式內容並不是本書的重點，讀者僅需知道透過這支檔案，會進行以下的過濾：
 
 - `dataTime` 的欄位需超過執行程式的日期，因為我們不需要更早以前的日出日落時間
 - `parameter` 只保留「日出時刻」和「日落時刻」
@@ -43,7 +66,7 @@
 
 若對於這支檔案有興趣的讀者，可以到下方連結檢視原始碼：
 
-[https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/get-moment-from-sunrise-sunset/src/utils/filter-sunrise-and-sunset.js](https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/get-moment-from-sunrise-sunset/src/utils/filter-sunrise-and-sunset.js)
+[https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/get-moment-from-sunrise-sunset/src/scripts/generateSunriseAndSunsetData/process-sunrise-and-sunset.mjs](https://github.com/pjchender/learn-react-from-hook-realtime-weather-app/blob/get-moment-from-sunrise-sunset/src/scripts/generateSunriseAndSunsetData/process-sunrise-and-sunset.mjs)
 
 我們也在專案的 `package.json` 中加入對應的指令
 
@@ -51,8 +74,8 @@
  // package.json
  "scripts": {
     ...
-    "build:sunrise-sunset": "node ./src/utils/filter-sunrise-and-sunset"
+    "build:process-sunrise-sunset": "node src/scripts/generateSunriseAndSunsetData/process-sunrise-and-sunset.mjs",
   },
 ```
 
-未來（2020 年後）只需要下載新的日出日落檔案，同樣放在 `utils` 資料夾中，接著進到專案後，透過終端機輸入 `npm run build:sunrise-sunset` 後，就可以產生 `sunrise-sunset.json` 的檔案。
+未來只需要下載新的日出日落檔案，同樣放在 `/scripts/generateSunriseAndSunsetData` 資料夾中，接著進到專案後，透過終端機輸入 `build:process-sunrise-sunset` 後，就可以產生 `sunrise-sunset.json` 的檔案。
