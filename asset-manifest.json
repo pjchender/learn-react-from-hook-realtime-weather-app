@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learn-react-from-hook-realtime-weather-app/static/css/main.4d18f3c6.css",
-    "main.js": "/learn-react-from-hook-realtime-weather-app/static/js/main.86827255.js",
+    "main.js": "/learn-react-from-hook-realtime-weather-app/static/js/main.3f6539a5.js",
     "static/js/787.139944dc.chunk.js": "/learn-react-from-hook-realtime-weather-app/static/js/787.139944dc.chunk.js",
     "service-worker.js": "/learn-react-from-hook-realtime-weather-app/service-worker.js",
     "static/media/day-snowing.svg": "/learn-react-from-hook-realtime-weather-app/static/media/day-snowing.ba1cbc7669611ee425e874e171d02e70.svg",
@@ -25,11 +25,11 @@
     "static/media/loading.svg": "/learn-react-from-hook-realtime-weather-app/static/media/loading.f8d56fd58925a1aaab4f80f1d8865c03.svg",
     "static/media/night-clear.svg": "/learn-react-from-hook-realtime-weather-app/static/media/night-clear.94eb7d671bc6d4dec6aa0b47038954df.svg",
     "main.4d18f3c6.css.map": "/learn-react-from-hook-realtime-weather-app/static/css/main.4d18f3c6.css.map",
-    "main.86827255.js.map": "/learn-react-from-hook-realtime-weather-app/static/js/main.86827255.js.map",
+    "main.3f6539a5.js.map": "/learn-react-from-hook-realtime-weather-app/static/js/main.3f6539a5.js.map",
     "787.139944dc.chunk.js.map": "/learn-react-from-hook-realtime-weather-app/static/js/787.139944dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d18f3c6.css",
-    "static/js/main.86827255.js"
+    "static/js/main.3f6539a5.js"
   ]
 }
