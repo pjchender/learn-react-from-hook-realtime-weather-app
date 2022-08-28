@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="138px" viewBox="0 0 138 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>day-clear</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="day-clear" transform="translate(2.000000, 2.000000)">
+            <circle id="Oval" fill="#EFCC00" fill-rule="nonzero" cx="67" cy="67.4151931" r="42"></circle>
+            <path d="M67,0.415193115 L67,15.4151931" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M67,119.415193 L67,134.415193" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M134,67.4151931 L119,67.4151931" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M15,67.4151931 L0,67.4151931" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M115,19.4151931 L104,30.4151931" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M30,103.415193 L19,114.415193" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M115,114.415193 L104,103.415193" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M30,30.4151931 L19,19.4151931" id="Path" stroke="#EFCC00" stroke-width="3" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
