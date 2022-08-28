@@ -1,7 +1,7 @@
 {
   "name": "learn-react-from-hook",
   "homepage": "https://pjchender.github.io/learn-react-from-hook-realtime-weather-app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
