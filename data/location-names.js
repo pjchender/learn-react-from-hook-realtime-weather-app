@@ -49,7 +49,7 @@ const currentWeatherLocationNames = [
   { locationName: '合歡山', parameter: [ '花蓮縣', '秀林鄉' ] },
   { locationName: '九宮碼頭', parameter: [ '金門縣', '烈嶼鄉' ] },
   { locationName: '澎湖', parameter: [ '澎湖縣', '馬公市' ] },
-  { locationName: '板橋', parameter: [ '新北市', '板橋區' ] },
+  { locationName: '新北', parameter: [ '新北市', '新店區' ] },
   { locationName: '彭佳嶼', parameter: [ '基隆市', '中正區' ] },
   { locationName: '國三N223K', parameter: [ '南投縣', '草屯鎮' ] },
   { locationName: '鞍部', parameter: [ '臺北市', '北投區' ] },
