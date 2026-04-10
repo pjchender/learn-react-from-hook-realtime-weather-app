@@ -35,7 +35,7 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-const AUTHORIZATION_KEY = 'CWB-507B37E0-0383-4D8C-878D-628B54EC3536';
+const AUTHORIZATION_KEY = 'CWA-507B37E0-0383-4D8C-878D-628B54EC3536';
 
 const App = () => {
   const [currentCity, setCurrentCity] = useState(() => localStorage.getItem('cityName') || '臺北市');

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 
 const fetchCurrentWeather = ({ authorizationKey, locationName }) => {
   return fetch(
-    `https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=${authorizationKey}&locationName=${locationName}`
+    `https://opendata.cwa.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=${authorizationKey}&locationName=${locationName}`
   )
     .then((response) => response.json())
     .then((data) => {
@@ -29,7 +29,7 @@ const fetchCurrentWeather = ({ authorizationKey, locationName }) => {
 
 const fetchWeatherForecast = ({ authorizationKey, cityName }) => {
   return fetch(
-    `https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=${authorizationKey}&locationName=${cityName}`
+    `https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=${authorizationKey}&locationName=${cityName}`
   )
     .then((response) => response.json())
     .then((data) => {
