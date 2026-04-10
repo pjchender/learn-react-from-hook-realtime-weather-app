@@ -3,6 +3,9 @@
   "homepage": "https://pjchender.github.io/learn-react-from-hook-realtime-weather-app",
   "version": "0.2.0",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
